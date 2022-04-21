@@ -1,0 +1,91 @@
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigation::before{
+    content: "";
+    background-color: rgb(31, 9, 7);
+    height: 170px;
+    top:0;
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+.la{
+    margin: 8px;
+    font-size: .7rem;
+}
+.la:hover{
+    font-size: .75rem;
+}
+.welcome h3{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.welcome p{
+    font-size: 1rem;
+    width: 90%
+}
+.welcome button{
+    width:45%;
+    height: 10%;
+    font-size: .5 rem;
+}
+.service{
+    flex-direction: column;
+}
+
+.welcome::before{
+    content: "";
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    background: none;
+    background-image: linear-gradient(rgb(235, 160, 160), rgb(126, 251, 251) 10%, rgb(115, 247, 115) );
+    opacity: .5;
+    z-index: -1;
+    /* background-size: contain; */
+    height: 3200px;
+    /* height: 100%; */
+    width: 100%;
+ }
+ .box{
+     width: auto;
+     height: auto;
+     text-align: center;
+     padding: 5px;
+ }
+ .box img{
+     padding-top: 0px;
+ }
+ .achieve{
+    flex-wrap: wrap;
+ }
+ .bx{
+     justify-content: center;
+     align-items: center;
+     width: 70%;
+ }
+ .bx p{
+     font-size: .9rem;
+     font-weight: bolder;
+ }
+ /* .ach::before{
+     background: none;
+     content: "";
+    position: absolute;
+    top: 1750px;
+    left: 0px;
+    background: none;
+    background-image: linear-gradient(rgb(196, 235, 160), rgb(126, 251, 251) 10%, rgb(115, 247, 115) );
+    opacity: .5;
+    z-index: -1;
+    height: 1500px;
+ } */
+ .contact::before{
+     background: none;
+ }
